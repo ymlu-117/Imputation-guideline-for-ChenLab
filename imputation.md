@@ -101,7 +101,7 @@ curl https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
 #self use. You don't have to do this way. 
 #example for chr1-23. 
 filedirprefix=/mnt/data_schen_1/jingchun/gwas_data/AD_GWAS/NG00023/imputation/preimputation/_adc2_complete.fwd.hg19_2018_1011
-TOKEN=eyJjdHkiOiJ0ZXh0XC9wbGFpbiIsImFsZyI6IkhTMjU2In0.eyJuYW1lIjoiWWltZWkgTHUiLCJhcGkiOnRydWUsIm1haWwiOiJ5aW1laS5sdUB1bmx2LmVkdSIsImV4cGlyZSI6MTY2MDI1NjIwNzg1OSwidXNlcm5hbWUiOiJ5bWx1In0.S-KEPsGwm3kG6LqY4B4Xrxj0gL7iMleg9G1ppoQnCH0
+TOKEN=<your token>
 curl https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
   -H "X-Auth-Token: $TOKEN" \
   -F "files=@${filedirprefix}-updated-chr1.vcf.gz" \
