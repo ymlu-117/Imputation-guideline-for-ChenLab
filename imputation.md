@@ -41,8 +41,9 @@ plink --file <ped/map location(prefix)> --make-bed --out <output prefix>
 -e liftover software dir
 
 ## Use imputation preparation and checking tool by McCarthy group
-reference: : https://www.well.ox.ac.uk/~wrayner/tools/  
+reference: https://www.well.ox.ac.uk/~wrayner/tools/  
 Tool location: /mnt/data_schen_1/yimei/software_and_tools/HRC-1000G-check-bim-v4.3.0/   
+(Download HRC-1000G-check-bim-v4.2.zip from the reference website if you can't find it in the server)  
 1. Create minor allele frequency report(.frq file)  
     - activate plink-env enrionment first if you havn't done so. It's needed for most of the time when you are doing imputation work.  
 ``` 
